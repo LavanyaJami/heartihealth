@@ -3,16 +3,16 @@ package com.pratian.heartihealth;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Date;
-import java.util.logging.Logger;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import com.bestbuy.demo.utils.Property.PropertyFile;
+import com.um.utils.Property.PropertyFile;
+
+
 
 /*import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
