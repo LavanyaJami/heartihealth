@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseClass {
 	
-		public ChromeDriver driver;
+		public WebDriver driver;
 		private final String chromeDriverPath = "/heartihealth/src/main/resources/drivers/chromedriver.exe";
 		
 		
