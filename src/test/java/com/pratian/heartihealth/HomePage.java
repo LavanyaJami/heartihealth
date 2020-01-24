@@ -1,5 +1,5 @@
 package com.pratian.heartihealth;
 
-public class TestClass {
+public class HomePage {
 
 }
