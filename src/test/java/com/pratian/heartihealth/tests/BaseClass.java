@@ -1,4 +1,4 @@
-package com.pratian.heartihealth;
+package com.pratian.heartihealth.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

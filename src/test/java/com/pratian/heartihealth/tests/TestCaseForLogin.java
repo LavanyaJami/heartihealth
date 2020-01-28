@@ -1,6 +1,8 @@
-package com.pratian.heartihealth;
+package com.pratian.heartihealth.tests;
 
 import org.testng.annotations.Test;
+
+import com.pratian.heartihealth.pages.Login;
 
 public class TestCaseForLogin extends BaseClass {
 	

@@ -1,4 +1,4 @@
-package com.pratian.heartihealth;
+package com.pratian.heartihealth.pages;
 
 import java.awt.HeadlessException;
 
