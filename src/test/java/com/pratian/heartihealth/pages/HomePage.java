@@ -18,7 +18,7 @@ public class HomePage {
 	}
 	
 	public void navigatedToHomePage() {
-		wait= new WebDriverWait(driver,120 );
+		wait= new WebDriverWait(driver,10 );
 		wait.until(ExpectedConditions.visibilityOfElementLocated(homepage));
 		
 	}
