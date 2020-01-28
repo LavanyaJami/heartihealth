@@ -1,4 +1,4 @@
-package com.pratian.heartihealth;
+package com.practian.heartihealth.utils.driver;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,16 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import com.um.utils.Property.PropertyFile;
-
-
-
-/*import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-*/
-//import com.bestbuy.demo.utils.Property.PropertyFile;
+import com.pratian.heartihealth.utils.property.PropertyFile;
 
 public class Screenshot {
 
