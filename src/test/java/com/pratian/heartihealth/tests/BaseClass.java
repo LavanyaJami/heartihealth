@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseClass {
 	
 		public WebDriver driver;
-		private final String chromeDriverPath = "/heartihealth/src/main/resources/drivers/chromedriver.exe";
+		private final String chromeDriverPath = "./src/main/resources/drivers/chromedriver.exe";
 		
 		
 		@BeforeMethod
@@ -18,12 +18,11 @@ public class BaseClass {
 			driver.manage().window().maximize();
 		}
 		
-		@AfterMethod
-		public void teardown()
-		{
-			driver.close();
-			
-		}
+	/*
+	 * @AfterMethod public void teardown() { driver.close();
+	 * 
+	 * }
+	 */
 	}
 
 
